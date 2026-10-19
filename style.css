@@ -307,8 +307,13 @@ ul {
 }
 
 .project-card img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
     margin-bottom: 12px;
-    border-radius: 4px;
+    border-radius: 6px;
+    background-color: var(--bg);
 }
 
 .project-header-text {
@@ -324,6 +329,7 @@ ul {
 
 .project-image-stack {
     display: flex;
+    flex-direction: column;
     gap: 16px;
     margin-bottom: 20px;
 }
