@@ -311,6 +311,28 @@ ul {
     border-radius: 4px;
 }
 
+.project-header-text {
+    flex: unset;
+    max-width: 800px;
+}
+
+.project-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.project-image-stack {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.project-acton-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
 
 
 .back-to-top {
