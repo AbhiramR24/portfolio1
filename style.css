@@ -312,6 +312,7 @@ ul {
 }
 
 
+
 .back-to-top {
 
     position: fixed;
@@ -360,6 +361,38 @@ ul {
     color: var(--primary);
     border: 1px solid var(--border);
     padding: 10px 16px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--surface);
+  color: var(--primary);
+  border: 1px solid var(--border);
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.skills-list li i {
+  font-size: 20px;
+  color: var(--accent); 
+}
+
+.skills-list li:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
 }
 
 .contact-box {
